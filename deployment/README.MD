@@ -15,7 +15,7 @@
 ## Deployment Steps
 
 ### Step 1 - Clone Repository
-git clone https://github.com/Samiksha-n/rag-for-educational-systems.git
+git clone https://github.com/snehamishra1704-del/u2u-internship-project
 cd rag-for-educational-systems/src
 
 ### Step 2 - Install Dependencies
