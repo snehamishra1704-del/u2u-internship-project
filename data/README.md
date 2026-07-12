@@ -1,98 +1,64 @@
-Artificial Intelligence is the simulation of human intelligence by machines.
+# RAG for Educational Systems - Deployment
 
-Machine Learning enables computers to learn patterns from data without explicit programming.
+## Deployment Report (Task 2 - Week 5)
 
-Supervised Learning uses labeled data for training models.
+## Application Details
+| Item | Details |
+|------|---------|
+| Project Name | RAG for Educational Systems |
+| Backend | Python Flask |
+| Frontend | Python Streamlit |
+| AI Model | Google Gemini AI |
+| Backend Port | 5000 |
+| Frontend Port | 8501 |
 
-Unsupervised Learning discovers patterns in unlabeled data.
+## Deployment Steps
 
-Reinforcement Learning trains agents through rewards and penalties.
+### Step 1 - Clone Repository
+git clone https://github.com/Samiksha-n/rag-for-educational-systems.git
+cd rag-for-educational-systems/src
 
-Deep Learning uses multi-layer neural networks for complex learning tasks.
+### Step 2 - Install Dependencies
+pip install -r requirements.txt
 
-Natural Language Processing enables computers to understand and generate human language.
+### Step 3 - Run using deploy.py
+python deploy.py
 
-Computer Vision enables machines to analyze and interpret images and videos.
+### Step 4 - Verify Deployment
+Open browser:
+- Frontend: http://localhost:8501
+- Backend: http://localhost:5000/api/health
 
-A Database Management System stores, manages, and retrieves data efficiently.
+## Verification Checklist
+✅ Frontend loads at http://localhost:8501
+✅ Input box visible
+✅ Submit button works
+✅ AI response displayed
+✅ Conversation history shown
+✅ Backend health check returns ok
 
-A database is an organized collection of related data.
+## Project Structure
+rag-for-educational-systems/
+├── README.md
+├── data/
+│   └── README.md
+├── src/
+│   ├── README.md
+│   ├── app.py
+│   ├── frontend.py
+│   ├── test_api.py
+│   ├── deploy.py
+│   └── requirements.txt
+├── reports/
+│   └── README.md
+└── deployment/
+    └── README.md
 
-A Primary Key uniquely identifies a record in a table.
+## GitHub Repository
+https://github.com/Samiksha-n/rag-for-educational-systems
 
-A Foreign Key establishes relationships between tables.
-
-Normalization reduces data redundancy and improves consistency.
-
-SQL is used to create, manage, and query databases.
-
-ACID properties ensure reliable database transactions.
-
-An Operating System manages hardware and software resources.
-
-A Process is a program currently being executed.
-
-A Thread is the smallest unit of CPU execution.
-
-Memory Management controls memory allocation and deallocation.
-
-Virtual Memory extends physical memory using secondary storage.
-
-Deadlock occurs when processes wait indefinitely for resources.
-
-Scheduling algorithms determine the execution order of processes.
-
-A Computer Network enables communication between connected devices.
-
-LAN is a network covering a limited geographical area.
-
-WAN connects devices across large geographical areas.
-
-An IP Address uniquely identifies a device on a network.
-
-TCP provides reliable data transmission.
-
-UDP provides faster but less reliable communication.
-
-HTTP is used for web communication.
-
-HTTPS provides secure web communication.
-
-DNS translates domain names into IP addresses.
-
-The OSI Model consists of seven layers used for network communication.
-
-A Data Structure is a method of organizing and storing data efficiently.
-
-An Array stores elements in contiguous memory locations.
-
-A Linked List consists of nodes connected through links.
-
-A Stack follows the Last In First Out principle.
-
-A Queue follows the First In First Out principle.
-
-A Tree is a hierarchical data structure.
-
-A Graph consists of vertices and edges.
-
-A Hash Table provides efficient data retrieval.
-
-Python is a high-level programming language.
-
-Variables store data values.
-
-Functions are reusable blocks of code.
-
-Lists are ordered and mutable collections.
-
-Tuples are ordered and immutable collections.
-
-Dictionaries store data as key-value pairs.
-
-Classes define the structure and behavior of objects.
-
-Modules help organize reusable Python code.
-
-Exception Handling manages runtime errors in programs.
-
+## Technologies Used
+- Python 3.x
+- Flask
+- Streamlit
+- Google Gemini AI
