@@ -1,64 +1,64 @@
-# RAG for Educational Systems - Deployment
+Introduction to Artificial Intelligence
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating systems capable of
+performing tasks that normally require human intelligence. These tasks include learning, reasoning,
+problem-solving, decision-making, and language understanding.
+Machine Learning
+Machine Learning (ML) is a subset of Artificial Intelligence. It enables computers to learn patterns from data
+without being explicitly programmed. Machine learning algorithms improve their performance as they are
+exposed to more data.
+Types of Machine Learning
+1. Supervised Learning
+    Uses labeled data.
+    Examples: Classification and Regression.
+2. Unsupervised Learning
+    Uses unlabeled data.
+    Examples: Clustering and Association.
+3. Reinforcement Learning
+    Learns through rewards and penalties.
+    Commonly used in robotics and gaming. 
 
-## Deployment Report (Task 2 - Week 5)
+Deep Learning
+Deep Learning is a subset of Machine Learning that uses artificial neural networks with multiple layers. It is
+widely used in image recognition, speech recognition, and natural language processing.
+Advantages of Deep Learning
+• Handles large volumes of data.
+• Learns complex patterns automatically.
+• High accuracy in image and speech tasks.
 
-## Application Details
-| Item | Details |
-|------|---------|
-| Project Name | RAG for Educational Systems |
-| Backend | Python Flask |
-| Frontend | Python Streamlit |
-| AI Model | Google Gemini AI |
-| Backend Port | 5000 |
-| Frontend Port | 8501 |
+Neural Networks
+A Neural Network consists of interconnected nodes called neurons. These neurons process information
+similarly to the human brain.
 
-## Deployment Steps
+Components of a Neural Network
+• Input Layer
+• Hidden Layer
+• Output Layer
 
-### Step 1 - Clone Repository
-git clone https://github.com/Samiksha-n/rag-for-educational-systems.git
-cd rag-for-educational-systems/src
+Natural Language Processing
+Natural Language Processing (NLP) enables computers to understand and process human language.
+Examples include chatbots, translators, and voice assistants.
 
-### Step 2 - Install Dependencies
-pip install -r requirements.txt
+Applications of Artificial Intelligence
+• Healthcare
+• Education
+• Finance
+• Transportation
+• Cybersecurity
+• E-commerce
 
-### Step 3 - Run using deploy.py
-python deploy.py
+Advantages of Artificial Intelligence
+• Reduces human effort.
+• Improves efficiency.
+• Provides faster decision-making.
+• Automates repetitive tasks.
 
-### Step 4 - Verify Deployment
-Open browser:
-- Frontend: http://localhost:8501
-- Backend: http://localhost:5000/api/health
+Disadvantages of Artificial Intelligence
+• High development cost.
+• Job displacement concerns.
+• Requires large datasets.
+• Ethical and privacy issues.
 
-## Verification Checklist
-✅ Frontend loads at http://localhost:8501
-✅ Input box visible
-✅ Submit button works
-✅ AI response displayed
-✅ Conversation history shown
-✅ Backend health check returns ok
-
-## Project Structure
-rag-for-educational-systems/
-├── README.md
-├── data/
-│   └── README.md
-├── src/
-│   ├── README.md
-│   ├── app.py
-│   ├── frontend.py
-│   ├── test_api.py
-│   ├── deploy.py
-│   └── requirements.txt
-├── reports/
-│   └── README.md
-└── deployment/
-    └── README.md
-
-## GitHub Repository
-https://github.com/Samiksha-n/rag-for-educational-systems
-
-## Technologies Used
-- Python 3.x
-- Flask
-- Streamlit
-- Google Gemini AI
+Conclusion
+Artificial Intelligence is transforming industries by enabling machines to perform intelligent tasks. Machine
+Learning, Deep Learning, Neural Networks, and NLP are important areas within AI that contribute to
+modern technological advancements.
